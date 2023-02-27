@@ -1,0 +1,66 @@
+.MainContain{
+    border: 2px solid red;
+   height: 40vh;
+   width:60vw;
+   display: flex;
+   margin:3rem;
+   box-shadow: 5px 5px 20px red;
+   background-color: black;
+}
+
+.left-contain{
+    /* border: 2px solid blue; */
+    width: 50%;
+    height: 100%;
+}
+
+.left-contain .top-contain{
+    /* border: 2px solid green; */
+    height: 45%;
+   /* margin: auto; */
+   display: flex;
+}
+
+.left-contain .top-contain img{
+    /* border: 2px solid black; */
+    width:30%;
+    height: 100%;
+}
+
+.left-contain .top-contain .heading{
+    /* border: 2px solid blue; */
+    height: 80%;
+    width:70%;
+    color: white;
+}
+.left-contain .top-contain .heading .btn{
+display: flex;
+justify-content: space-around;
+align-items: end;
+}
+.left-contain p{
+    /* border: 2px solid grey; */
+    height: 35%;
+    margin-top:.5rem;
+    color: white;
+}
+
+.left-contain .bottom-contain{
+    /* border: 2px solid greenyellow; */
+    height: 20%;
+}
+
+
+
+.right-contain{
+    /* border: 2px solid gray; */
+    width: 50%;
+    height: 100%;
+    box-shadow: 5px 5px 10px black;
+   
+}
+
+.right-contain img{
+    height: 100%;
+    width: 100%;
+}
